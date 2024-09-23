@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, red, yellow);
+    background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+.remove-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; 
+    color: white;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c82333; 
+}
+button {
+    padding: 15px 18px; 
+    margin-right: 5px; /* Space between buttons */
+    border: none;
+    align-content: center;
+    border-radius: 5px; 
+    background: linear-gradient(45deg, red, yellow);
+    color: white;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease, transform 0.2s; 
+}
+
+#clear-history {
+    margin-left: 10px; /* Additional space to the left of the button */
+}
+
+/* Additional styles for the table */
+td {
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+
+th {
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.container:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; 
+    text-align: center; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: pink; 
+    color: white; 
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0; 
+}
+
+
+input {
+    width: calc(100% - 22px);
+    padding: 12px; 
+    margin-bottom: 10px;
+    border: 1px solid #007bff; 
+    border-radius: 4px;
+    font-size: 16px; 
+    transition: border-color 0.3s ease; 
+}
+
+input:focus {
+    border-color: #0056b3; 
+    outline: none; 
+}
+
+/*button {
+    padding: 15px 18px; 
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px; 
+    background: linear-gradient(45deg, red, yellow);
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease, transform 0.2s;
+}*/
+
+
+button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9; 
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease; 
+}
+
+li:hover {
+    background: #e0e0e0; 
+}

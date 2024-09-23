@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><b><u>Search Engine</u></b></h1>
+        <input type="text" id="search-input" placeholder="Enter your search keyword...">
+        <button id="search-button">Search</button>
+        <button id="clear-history">Clear History</button>
+        <br>
+        <br>
+        <h2>Search History</h2>
+        <table id="search-history-table">
+            <thead>
+                <tr>
+                    <th>Search Term</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="search-history"></tbody>
+        </table>
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
